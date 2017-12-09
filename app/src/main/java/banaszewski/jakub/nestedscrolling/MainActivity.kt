@@ -1,7 +1,7 @@
 package banaszewski.jakub.nestedscrolling
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
@@ -10,8 +10,7 @@ import android.view.ViewGroup
 
 class MainActivity : AppCompatActivity() {
 
-    class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-    }
+    class ViewHolder(view: View) : RecyclerView.ViewHolder(view)
 
     class Adapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         override fun onBindViewHolder(holder: RecyclerView.ViewHolder?, position: Int) {
